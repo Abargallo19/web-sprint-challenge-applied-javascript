@@ -18,6 +18,11 @@ const headDate = document.createElement('span');
 const headTitle = document.createElement('h1');
 const headTemp = document.createElement('span');
 
+header.classList.add('header');
+headDate.classList.add('date');
+headTemp.classList.add('temp');
+
+
 
 }
 
