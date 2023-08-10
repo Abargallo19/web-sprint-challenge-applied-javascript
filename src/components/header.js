@@ -22,7 +22,9 @@ header.classList.add('header');
 headDate.classList.add('date');
 headTemp.classList.add('temp');
 
-
+header.appendChild(headDate);
+header.appendChild(headTitle);
+header.appendChild(headTemp);
 
 }
 
