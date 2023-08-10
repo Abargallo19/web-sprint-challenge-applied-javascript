@@ -14,6 +14,7 @@ const Header = (title, date, temp) => {
 
 
 const header = document.createElement('div');
+const date = document.createElement('span');
 
 
 }
