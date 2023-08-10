@@ -11,6 +11,11 @@ const Header = (title, date, temp) => {
   //    <span class="temp">{ temp }</span>
   //  </div>
   //
+
+
+const header = document.createElement('div');
+
+
 }
 
 const headerAppender = (selector) => {
