@@ -18,7 +18,7 @@ const Card = (article) => {
   // </div>
   //
 }
-console.log('successful clone')
+console.log('successful clones')
 const cardAppender = (selector) => {
   // TASK 6
   // ---------------------
