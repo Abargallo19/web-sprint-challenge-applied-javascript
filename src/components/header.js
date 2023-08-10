@@ -26,6 +26,10 @@ header.appendChild(headDate);
 header.appendChild(headTitle);
 header.appendChild(headTemp);
 
+headDate.textContent = date;
+headTitle.textContent = title;
+headTemp.textContent = temp;
+
 }
 
 const headerAppender = (selector) => {
