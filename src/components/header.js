@@ -30,6 +30,8 @@ headDate.textContent = date;
 headTitle.textContent = title;
 headTemp.textContent = temp;
 
+return header;
+
 }
 
 const headerAppender = (selector) => {
@@ -39,7 +41,10 @@ const headerAppender = (selector) => {
   // It should create a header using the Header component above, passing arguments of your choosing.
   // It should append the header to the element in the DOM that matches the given selector.
   //
-
+const elem = document.querySelector(selector);
+const newbie = Header();
+elem.appendChild(newbie);
+return elem;
   // HINT: querySelector can take in a string (ie querySelector("#wrapper")) 
   // but it can also take in a variable (ie querySelector(selector))
   // We are taking care of passing in the correct selector on line 16,
